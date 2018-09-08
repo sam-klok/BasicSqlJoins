@@ -1,4 +1,4 @@
-use AdventureWorks2016CTP3;
+use AdventureWorks2016CTP3;   -- you can use any database for this test
 
 create table Ludi(
 	PersonID int Primary KEY,
