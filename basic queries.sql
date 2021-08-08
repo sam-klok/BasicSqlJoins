@@ -1,7 +1,9 @@
-use AdventureWorks2016CTP3;
+--use AdventureWorks2016CTP3;
+use Phones
+--go
 
-select * from Ludi;
-select * from Phone;
+select * from Ludi
+select * from Phone
 
 select * from Ludi l inner join Phone p on l.PhoneID = p.PhoneID
 select * from Ludi l full join Phone p on l.PhoneID = p.PhoneID

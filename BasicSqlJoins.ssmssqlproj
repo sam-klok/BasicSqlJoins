@@ -2,21 +2,40 @@
 <SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="BasicSqlJoins">
   <Items>
     <LogicalFolder Name="Connections" Type="2" Sorted="true">
-      <Items />
+      <Items>
+        <ConnectionNode Name="samklok.database.windows.net:samklok">
+          <Created>2021-08-01T19:55:23.332053-07:00</Created>
+          <Type>SQL</Type>
+          <Server>samklok.database.windows.net</Server>
+          <UserName>samklok</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB>Phones</InitialDB>
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
     </LogicalFolder>
     <LogicalFolder Name="Queries" Type="0" Sorted="true">
       <Items>
         <FileNode Name="basic queries.sql">
-          <AssociatedConnectionMoniker />
-          <AssociatedConnSrvName />
-          <AssociatedConnUserName />
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:samklok.database.windows.net:False:samklok</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>samklok.database.windows.net</AssociatedConnSrvName>
+          <AssociatedConnUserName>samklok</AssociatedConnUserName>
           <FullPath>basic queries.sql</FullPath>
         </FileNode>
         <FileNode Name="create test tables ludi phone.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:samklok.database.windows.net:False:samklok</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>samklok.database.windows.net</AssociatedConnSrvName>
+          <AssociatedConnUserName>samklok</AssociatedConnUserName>
+          <FullPath>create test tables ludi phone.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLQuery1.sql">
           <AssociatedConnectionMoniker />
           <AssociatedConnSrvName />
           <AssociatedConnUserName />
-          <FullPath>create test tables ludi phone.sql</FullPath>
+          <FullPath>SQLQuery1.sql</FullPath>
         </FileNode>
       </Items>
     </LogicalFolder>
