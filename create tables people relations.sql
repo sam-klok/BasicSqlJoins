@@ -1,3 +1,5 @@
+-- add use if needed
+
 DROP TABLE [dbo].[people]
 DROP TABLE [dbo].[relations]
 
