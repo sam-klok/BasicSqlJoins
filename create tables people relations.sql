@@ -1,5 +1,6 @@
 use LifelongLearning
 
+
 DROP TABLE [dbo].[people]
 DROP TABLE [dbo].[relations]
 
