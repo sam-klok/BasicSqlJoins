@@ -1,5 +1,5 @@
 --use AdventureWorks2016CTP3;
-use Phones
+use LifelongLearning
 --go
 
 select * from Ludi

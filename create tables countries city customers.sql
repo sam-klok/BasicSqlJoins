@@ -1,3 +1,5 @@
+use LifelongLearning
+
 DROP TABLE [dbo].[customers]
 DROP TABLE [dbo].[city]
 DROP TABLE [dbo].[country]
