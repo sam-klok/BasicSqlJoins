@@ -6,7 +6,7 @@ DROP TABLE [dbo].[relations]
 
 CREATE TABLE [dbo].[people](
 	[id] [int] NOT NULL Primary KEY,
-	[name] [varchar](50) NULL,
+	[name] [varchar](50) NOT NULL INDEX IX_people_name,
 	[gender] [char](1) NULL)
 GO
 
