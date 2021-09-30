@@ -6,3 +6,6 @@ CREATE PROCEDURE sp_get_people
 AS
 SELECT * FROM people
 go
+
+exec dbo.sp_get_people
+go
